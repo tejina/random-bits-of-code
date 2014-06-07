@@ -1,2 +1,9 @@
+http://developer.android.com/guide/topics/ui/how-android-draws.html
+http://stackoverflow.com/questions/13856180/usage-of-forcelayout-requestlayout-and-invalidate
+http://stackoverflow.com/questions/4486034/get-root-view-from-current-activity
+
 findViewById(android.R.id.content)
 requestLayout();
+
+((ViewGroup)findViewById(android.R.id.content)).getChildAt(0)
+http://stackoverflow.com/a/5069354
