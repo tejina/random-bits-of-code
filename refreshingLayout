@@ -1,0 +1,2 @@
+findViewById(android.R.id.content)
+requestLayout();
